@@ -1,0 +1,20 @@
+{
+  "name": "pdfapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "html-pdf": "^3.0.1",
+    "html-to-pdfmake": "^2.4.16",
+    "http-errors": "~1.6.3",
+    "jsdom": "^21.1.1",
+    "morgan": "~1.9.1",
+    "pdfmake": "^0.2.7"
+  }
+}
